@@ -101,6 +101,7 @@ footer{
 #div1{
     background-image:linear-gradient(to right,rgb(191, 115, 21),rgb(198, 55, 160));
     min-height: 50px;
+<<<<<<< Updated upstream
     border-style:inset;
 }
 #imgf{
@@ -128,3 +129,9 @@ footer{
   height: 300px;
  text-align: justify;
 }
+=======
+}
+img{
+    opacity:0.5;
+}
+>>>>>>> Stashed changes
