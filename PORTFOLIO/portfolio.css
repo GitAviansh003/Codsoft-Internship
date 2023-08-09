@@ -121,4 +121,5 @@ cursor:pointer;
     background-color: #f1f1f1;
     padding: 10px;
     flex: 50%;
+    text-align: justify;
 }
