@@ -4,6 +4,9 @@
     padding:0;
     box-sizing:border-box;
 }
+body{
+    margin:0;
+}
 header{
     display:flexbox;
     background-color: #f3f3f3;
@@ -52,38 +55,36 @@ text-transform: uppercase;
 letter-spacing:2.5px;
 cursor:pointer;
 }
-section{
-    max-width: 500px;
-    margin: auto;
-}
-.home {
-    position:relative;
-    row-gap: 5rem;
-    padding: 4rem 0 5rem;
-    
-    
-}
-/*...home...*/
-.home_data{
- text-align: justify;
-}
-
-.home__title-color {
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .flex-item-left {
+    margin-top: 50px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 20%;
+  }
+  
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+  /* div text*/
+  .home__title-color {
     color:rgb(27, 95, 204);
     margin-left:2px;
-}
-  
-.socialicon {
-    display: flex;
-    flex-direction:row;
-    gap: 20px;
-    margin:auto;
-    padding-top:20px;
-}
-.home_icon {
-    font-size: 2.5rem;
-    color:#111;
-
 }
 .button{
     background: #0b2edd;
@@ -98,8 +99,14 @@ section{
     color:red;
     
 }
-.home_img{
-    float:right;
+/*for social icon*/
+.socialicon {
+    gap: 20px;
+    margin:auto;
 }
 
-  
+.home_icon {
+    font-size: 2.5rem;
+    color:#111;
+
+}
