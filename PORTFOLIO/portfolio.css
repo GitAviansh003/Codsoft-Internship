@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding:0;
@@ -7,6 +8,7 @@ header{
     display:flexbox;
     background-color: #f3f3f3;
     height:80px;
+    
 }
 ul {
     list-style-type: none;
@@ -50,7 +52,14 @@ text-transform: uppercase;
 letter-spacing:2.5px;
 cursor:pointer;
 }
-.intro{
-    display: flexbox;
+.home {
+    position: relative;
+    row-gap: 5rem;
+    padding: 6rem 0 5rem;
+    
     
 }
+.home_data{
+
+ text-align: justify;
+  }
