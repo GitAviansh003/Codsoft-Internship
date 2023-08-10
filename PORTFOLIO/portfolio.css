@@ -15,6 +15,7 @@
     display: flex;
     flex-direction: row;
     font-size: 30px;
+    margin-top: 50px;
     text-align: center;
   }
   
@@ -22,12 +23,14 @@
     background-color: #f1f1f1;
     padding: 10px;
     flex: 80%;
+
   }
   
   .flex-item-right {
     background-color: dodgerblue;
     padding: 10px;
-    flex: 30%
+    flex: 30%;
+    align-self: center;
   }
   
   /* Responsive layout - makes a one column-layout instead of two-column layout */
@@ -67,16 +70,19 @@
 }
 /*about container*/
 
-#about-left{
+#about-right{
+  
     background-color: dodgerblue;
     padding: 10px;
-    flex: 40%;
+    flex: 30%;
+    align-self: center;
 }
-#about-right{
-    margin-top: 50px;
+#about-left{
+  
+    
     background-color: #f1f1f1;
     padding: 10px;
-    flex: 60%;
+    flex: 80%;
     text-align: justify;
 }
 
